@@ -1,0 +1,33 @@
+.banner_item {
+  height: 600px;
+  background-position: center !important;
+  background-size: cover !important;
+  position: relative;
+  z-index: 1;
+}
+.banner_description {
+  position: absolute;
+  bottom: 50%;
+  transform: translateY(50%);
+  text-align: center;
+  width: 100%;
+  left: 0;
+}
+.banner_description h2 {
+  font-size: 55px;
+}
+
+.banner_description h5 {
+  font-size: 20px;
+}
+@media (max-width: 575.99px) {
+  .banner_item {
+    height: 400px;
+  }
+  .banner_description h2 {
+    font-size: 42px;
+  }
+  .banner_description h5 {
+    font-size: 16px;
+  }
+}

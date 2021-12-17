@@ -1,0 +1,52 @@
+.custom {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+.icon {
+  display: flex;
+  justify-content: center;
+}
+
+.icon div {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: white;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.icon div a {
+  color: white;
+}
+.icon .facebook {
+  background-color: rgb(67, 67, 207);
+  color: white;
+}
+.icon .twitter {
+  background-color: rgb(84, 168, 216);
+  margin: 0px 10px;
+}
+.icon .google {
+  background-color: rgb(189, 22, 22);
+}
+.icon .facebook:hover {
+  background-color: white;
+}
+.icon .facebook:hover a {
+  color: rgb(67, 67, 207);
+}
+.icon .twitter:hover {
+  background-color: white;
+}
+.icon .twitter:hover a {
+  color: rgb(84, 168, 216);
+}
+.icon .google:hover {
+  background-color: white;
+}
+.icon .google:hover a {
+  color: rgb(189, 22, 22);
+}
