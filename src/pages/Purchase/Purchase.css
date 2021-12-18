@@ -1,0 +1,28 @@
+/* background: 'bisque', padding: '40px', borderRadious: '30px' */
+.order-form {
+  background-color: bisque;
+  padding: 40px;
+  border-radius: 30px;
+}
+
+.order-form input,
+.order-form .button {
+  display: block;
+  margin-top: 30px;
+  padding: 5px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  width: 300px;
+  border: 0px;
+}
+.order-form .button {
+  background-color: #066d6d;
+  color: white;
+}
+
+.error {
+  color: red;
+}
+
+@media (max-width: 600px) {
+}

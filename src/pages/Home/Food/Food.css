@@ -1,11 +1,11 @@
 .btn-outline-success:hover {
   color: #fff;
-  background-color: darkcyan;
-  border-color: darkcyan;
+  background-color: royalblue;
+  border-color: royalblue;
 }
 .btn {
-  border: 1px solid darkcyan;
-  color: darkcyan;
+  border: 1px solid royalblue;
+  color: royalblue;
 }
 img {
   --tw-translate-x: 0;

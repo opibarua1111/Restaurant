@@ -11,7 +11,7 @@ const Foods = () => {
     useEffect(() => {
         dispatch(fetchFoods());
     }, [])
-    const foods = useSelector((state) => state.foods.discover);
+    const foods = useSelector((state) => state.foods.allFoods);
     return (
         <Box sx={{ flexGrow: 1 }}>
             <Container>

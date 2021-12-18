@@ -12,7 +12,7 @@ const Footer = () => {
     const twitter = <i class="fab fa-twitter"></i>
     const google = <i class="fab fa-google"></i>
     return (
-        <div className="p-5 text-white mt-5" style={{ backgroundColor: 'darkslategrey' }}>
+        <div className="p-5 text-white mt-5" style={{ backgroundColor: 'royalblue' }}>
             <Container>
                 <Row xs={1} md={2} lg={3}>
                     <Col xs className="text-start">
@@ -21,7 +21,7 @@ const Footer = () => {
                         </Col>
                         <Col xs><h5>Contact Us</h5></Col>
                         <Col xs>{loc} Chattogram, Bangladesh</Col>
-                        <Col xs>{mbl} Mobile: +880 1849648291</Col>
+                        <Col xs>{mbl} Mobile: +880 1300023918</Col>
                         <Col xs>{mail} Mail: opibarua1122@gmail.com</Col>
                     </Col>
                     <Col xs className="text-start">

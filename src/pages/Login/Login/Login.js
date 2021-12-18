@@ -1,6 +1,6 @@
 import { Button, Container, Grid, TextField, Typography, CircularProgress, Alert } from '@mui/material';
 import React, { useState } from 'react';
-import { NavLink, useLocation, useHistory } from 'react-router-dom';
+import { NavLink, useLocation, useNavigate } from 'react-router-dom';
 import useAuth from '../../../hooks/useAuth';
 import './Login.css';
 
@@ -9,7 +9,7 @@ const Login = () => {
     const { user, isLoading, loginUser, signInWithGoogle, authError } = useAuth();
 
     const location = useLocation();
-    const history = useHistory();
+    const navigate = useNavigate();
     const handleOnChange = e => {
         const field = e.target.name;
         const value = e.target.value;
@@ -18,12 +18,12 @@ const Login = () => {
         setLoginData(newLoginData);
     }
     const handleLoginSubmit = e => {
-        loginUser(loginData.email, loginData.password, location, history);
+        loginUser(loginData.email, loginData.password, location, navigate);
         e.preventDefault();
     }
 
     const handleGoogleSignIn = () => {
-        signInWithGoogle(location, history)
+        signInWithGoogle(location, navigate)
     }
     return (
         <Grid container columns={{ xs: 4, sm: 8, md: 12 }}>

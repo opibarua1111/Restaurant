@@ -1,0 +1,16 @@
+.add-service form {
+  display: flex;
+  flex-direction: column;
+}
+.add-product input,
+.add-product textarea,
+.add-product .button {
+  display: block;
+  margin-top: 30px;
+  padding: 5px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  width: 100%;
+  margin: auto;
+  margin-bottom: 10px;
+}
